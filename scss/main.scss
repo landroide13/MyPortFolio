@@ -54,9 +54,9 @@ main {
 
   .icons{
     margin-top: 1rem;
-
     a{
       padding: 0.4rem;
+      color: #999a9e;
 
       &:hover{
         color: $secondary;
@@ -147,14 +147,14 @@ main {
 
   div {
     font-size: 2rem;
-    border: 3px #fff solid;
+    border: 3px #1a30f2 solid;
     padding: 1.5rem 2.5rem;
     margin-bottom: 3rem;
     @include easeOut;
 
     &:hover {
       padding: 0.5rem 1.5rem;
-      background: $secondary;
+      background: $primary;
       color: set-text-color($secondary);
       span {
         color: set-text-color($secondary);
@@ -200,15 +200,6 @@ main {
   color: set-text-color($primary);
   height: 60px;
 }
-
-
-
-
-
-
-
-
-
 
 
 
